@@ -1,0 +1,90 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header-container {
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+}
+
+.header-wrapper {
+  height: 4em;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+.header-wrapper img {
+  height: auto;
+  width: 6em;
+}
+
+.header-logo {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  border-right: 1px solid lightgray;
+}
+
+.header-title {
+  width: 85%;
+  font-size: 2em;
+  font-weight: 700;
+  text-align: center;
+  color: darkblue;
+}
+
+.sidebar {
+  width: 15%;
+  display: flex;
+  font-size: 1.5em;
+  font-weight: 600;
+  color: darkblue;
+  background-color: whitesmoke;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.dashboard-content {
+  display: flex;
+  flex: 1;
+}
+
+.main-content {
+  margin: 1em;
+  flex: 1;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* CSS antd */
+:where(.css-dev-only-do-not-override-p7e5j5).ant-card-bordered {
+  border-radius: 0;
+}
+
+:where(.css-dev-only-do-not-override-p7e5j5).ant-card .ant-card-head {
+  background-color: rgba(252, 0, 0, 0.7);
+  border-radius: 0;
+}
+
+:where(.css-dev-only-do-not-override-p7e5j5).ant-card .ant-card-body {
+  background-color: whitesmoke;
+  border-radius: 0;
+}
